@@ -1,0 +1,15 @@
+.footer {
+	min-height: 50svh;
+	background: var(--3a4036-clr);
+	color: var(--f1ebdd-clr);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer__author {
+	a {
+		color: var(--f1ebdd-clr);
+	}
+}

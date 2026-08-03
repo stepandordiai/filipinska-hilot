@@ -1,0 +1,176 @@
+{
+	"close": "Close",
+	"bookAnAppointment": "Book an Appointment",
+	"durationAndPrice": "Duration and Price",
+
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"treatments": "Treatments",
+		"contacts": "Contacts"
+	},
+	"hero": {
+		"heading": "Feel <accent>Better</accent>. Move <accent>Freely</accent>. Live <accent>Pain-Free</accent>.",
+		"subheading": "",
+		"exploreTreatments": "Explore Treatments"
+	},
+
+	"swedishMassage": {
+		"title": "Swedish massage",
+		"description": [
+			"Swedish massage is one of the most well-known and widely used classic massage techniques in the world. It focuses on relaxing the muscles, improving blood circulation, and promoting overall body regeneration. It combines various massage strokes that help release tension and induce a deep sense of relaxation.",
+			"During the massage, the therapist uses long, flowing strokes, kneading of the muscles, friction, gentle tapping, and pressure techniques. The movements are adapted to the individual needs of the client — ranging from a very gentle relaxing massage to more intense work on stiff and strained muscles.",
+			"Swedish massage is often performed using massage oils, which allow for smooth movements while also caring for the skin. It focuses primarily on areas where tension tends to build up most, such as the back, neck, shoulders, and legs.",
+			"Swedish massage is an ideal choice for anyone seeking a combination of relaxation and therapeutic benefit. It's suitable for both beginners and regular massage-goers, leaving the body relaxed, refreshed, and rejuvenated."
+		],
+
+		"benefitsTitle": "Benefits of Swedish massage:",
+		"benefits": [
+			"Releases muscle tension and stiffness",
+			"Improves blood circulation and supports regeneration",
+			"Helps reduce stress and mental tension",
+			"Improves muscle mobility and flexibility",
+			"Promotes overall relaxation and a sense of well-being",
+			"Helps eliminate fatigue and tension from everyday life"
+		]
+	},
+	"footReflexology": {
+		"title": "Foot reflexology",
+		"description": [
+			"Foot reflexology is a traditional therapeutic method based on the principle that certain points on the feet correspond to individual organs and parts of the body. Through targeted pressure on the reflex points of the feet, the body's natural balance is supported, tension is released, and overall harmony of body and mind is promoted.",
+			"During the treatment, the therapist uses their thumbs and fingers to apply gentle yet targeted pressure to the individual reflex zones of the feet. The massage can be combined with relaxing strokes, gentle stretching, and skin care using natural oils.",
+			"Foot reflexology is popular for its ability to induce deep relaxation and help the body release accumulated tension. Many people seek it out as a pleasant way to rest and support their overall well-being.",
+			"Foot reflexology is an ideal choice for those looking for a gentle, relaxing treatment focused on the feet, combining traditional techniques with an enjoyable experience of deep release."
+		],
+
+		"benefitsTitle": "Benefits of foot reflexology:",
+		"benefits": [
+			"Helps release tension and stress",
+			"Promotes deep relaxation",
+			"Improves the feeling of lightness and comfort in the feet",
+			"Supports blood circulation in the feet and lower legs",
+			"Helps restore balance to body and mind",
+			"Contributes to an overall feeling of regeneration and vitality"
+		]
+	},
+
+	"filipinoMassage": {
+		"title": "Filipino massage"
+	},
+
+	"aromaticMassage": {
+		"title": "Aromatic massage",
+		"description": [
+			"Aromatic massage is a relaxing and harmonizing therapy that combines classic massage techniques with the beneficial effects of natural essential oils. It focuses on relaxing the body, calming the mind, and promoting overall well-being.",
+			"During the massage, selected aromatic oils are gently massaged into the skin using slow, flowing, and soothing strokes. The therapist combines light pressure techniques, stroking, and gentle kneading to help release muscle tension, support blood circulation, and induce a state of deep relaxation.",
+			"The scent of the essential oils affects not only the body but also the senses and the mind. It helps calm the mind, reduce stress, and create a feeling of harmony and inner peace.",
+			"Aromatic massage is an ideal choice for those seeking a gentle, fragrant, and soothing experience. The combination of healing touch and natural essential oils helps restore energy, relax the body, and bring a feeling of deep harmony and rest."
+		],
+
+		"benefitsTitle": "Benefits of aromatic massage:",
+		"benefits": [
+			"Relieves muscle tension and physical fatigue",
+			"Helps reduce stress and mental tension",
+			"Promotes deep relaxation and a sense of calm",
+			"Improves skin blood circulation",
+			"Hydrates and softens the skin thanks to the use of natural oils",
+			"Supports balance between body and mind"
+		]
+	},
+
+	"hotOilMassage": {
+		"title": "Hot oil massage",
+		"description": [
+			"This massage combines the beneficial effects of warmth, high-quality oils, and therapeutic touch. Warmed oil is slowly applied to the skin, and the therapist works it in using flowing massage strokes, gentle kneading, and rhythmic pressure.",
+			"The heat helps the muscles relax more quickly, eases tension, and allows the massage techniques to work more deeply. At the same time, the oils nourish and hydrate the skin, leaving it soft and smooth.",
+			"Hot oil massage is ideal for those seeking a warm, soothing, and luxurious experience that relaxes the body, calms the mind, and restores a sense of energy and balance."
+		],
+
+		"benefitsTitle": "Benefits of hot oil massage:",
+		"benefits": [
+			"Relieves muscle tension and stiffness",
+			"Promotes deep relaxation",
+			"Helps reduce stress and mental tension",
+			"Improves blood circulation",
+			"Nourishes and hydrates the skin",
+			"Calms the nervous system",
+			"Brings a feeling of harmony and overall well-being"
+		]
+	},
+
+	"balineseMassage": {
+		"title": "Balinese massage",
+		"description": [
+			"Balinese massage begins with gentle warming strokes using aromatic essential oils, which prepare the body for deeper relaxation. The therapist then combines long, flowing massage strokes with deep techniques, kneading, acupressure, tissue rolling, and gentle stretching. This harmonious combination helps release muscle tension, support blood and lymphatic circulation, and restore the body's natural balance.",
+			"Unlike massages focused only on specific problem areas, Balinese massage is a comprehensive full-body treatment aimed at promoting overall physical and mental well-being.",
+			"Balinese massage is an ideal choice for anyone seeking a combination of effective therapeutic care and deep relaxation. Thanks to the combination of traditional massage techniques and fragrant essential oils, it offers a unique experience that regenerates the body, calms the mind, and induces a feeling of overall harmony."
+		],
+
+		"benefitsTitle": "Benefits of Balinese massage:",
+		"benefits": [
+			"Relieves muscle tension and stiffness",
+			"Supports blood and lymphatic circulation",
+			"Helps reduce stress and mental tension",
+			"Induces deep relaxation",
+			"Improves the body's flexibility and mobility",
+			"Restores harmony between body and mind"
+		]
+	},
+
+	"relaxingThaiMassage": {
+		"title": "Relaxing Thai massage",
+		"description": [
+			"Balinese massage begins with gentle warming strokes using aromatic essential oils, which prepare the body for deeper relaxation. The therapist then combines long, flowing massage strokes with deep techniques, kneading, acupressure, tissue rolling, and gentle stretching. This harmonious combination helps release muscle tension, support blood and lymphatic circulation, and restore the body's natural balance.",
+			"Unlike massages focused only on specific problem areas, Balinese massage is a comprehensive full-body treatment aimed at promoting overall physical and mental well-being.",
+			"Balinese massage is an ideal choice for anyone seeking a combination of effective therapeutic care and deep relaxation. Thanks to the combination of traditional massage techniques and fragrant essential oils, it offers a unique experience that regenerates the body, calms the mind, and induces a feeling of overall harmony."
+		],
+
+		"benefitsTitle": "Benefits of Balinese massage:",
+		"benefits": [
+			"Relieves muscle tension and stiffness",
+			"Supports blood and lymphatic circulation",
+			"Helps reduce stress and mental tension",
+			"Induces deep relaxation",
+			"Improves the body's flexibility and mobility",
+			"Restores harmony between body and mind"
+		]
+	},
+
+	"hotStoneMassage": {
+		"title": "Hot stone massage",
+		"description": [
+			"Hot stone massage is a deeply relaxing and therapeutic treatment that combines traditional massage techniques with the use of smooth, heated stones. The heat from the stones helps relax the muscles, allows for a more intense effect of the massage strokes, and at the same time creates a pleasant feeling of calm and deep relaxation.",
+			"The massage begins with warm stones being placed on selected areas of the body, most often the back, palms, or feet, where they help warm up and release muscle tension. The therapist then combines flowing massage strokes, gentle pressure, and work with the heated stones to help release tension, improve blood circulation, and induce a state of deep relaxation.",
+			"The heat from the stones supports blood circulation, helps loosen stiff muscles, and brings a feeling of harmony and comfort. Combined with aromatic oils and mindful massage techniques, hot stone massage offers a holistic experience for body and mind.",
+			"Hot stone massage is an ideal choice for anyone seeking a warm, soothing, and luxurious massage experience that leaves the body relaxed, refreshed, and regenerated."
+		],
+
+		"benefitsTitle": "Benefits of hot stone massage:",
+		"benefits": [
+			"Relieves muscle tension and stiffness",
+			"Promotes deep relaxation and reduces stress",
+			"Improves blood circulation",
+			"Helps release tired and overworked muscles",
+			"Calms the nervous system",
+			"Supports overall balance and a sense of well-being"
+		]
+	},
+
+	"herbalCompressMassage": {
+		"title": "Bylinková masáž bylinnými měšci",
+		"description": [
+			"Bylinková masáž bylinnými měšci je tradiční terapeutická procedura, při které se používají nahřáté bavlněné měšce naplněné směsí léčivých bylin. Měšce se jemně přikládají, přitlačují a masírují po celém těle, čímž pomáhají uvolnit svalové napětí, zmírnit bolest a navodit hlubokou relaxaci.",
+			"Bylinné měšce obvykle obsahují směs bylin, jako je citronová tráva, zázvor, kurkuma, kafrová limeta, kafr a další aromatické léčivé rostliny. Teplo podporuje prokrvení, uvolňuje ztuhlé svaly a umožňuje lepší působení bylinných silic."
+		],
+
+		"benefitsTitle": "Přínosy masáže:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost.",
+			"Zmírňuje bolest svalů a kloubů.",
+			"Podporuje krevní a lymfatický oběh.",
+			"Pomáhá snižovat stres a navozuje hlubokou relaxaci.",
+			"Přispívá k regeneraci organismu.",
+			"Zanechává pokožku jemnou a příjemně provoněnou."
+		]
+	}
+}

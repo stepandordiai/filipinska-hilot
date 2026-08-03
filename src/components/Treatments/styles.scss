@@ -1,0 +1,143 @@
+.treatments {
+	min-height: 100svh;
+	background: var(--light-green-clr);
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	padding: 112px 2rem 2rem;
+}
+
+.treatments__title {
+	display: inline-block;
+	color: var(--f1ebdd-clr);
+	outline: 1px solid var(--f1ebdd-clr);
+	outline-offset: -1px;
+	padding: 1rem 0.625rem;
+	border-radius: 24px;
+	font-weight: 500;
+}
+
+.treatments-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+
+.treatment-card {
+	position: relative;
+	color: var(--f1ebdd-clr);
+	background: var(--3a4036-clr);
+	padding: 1rem;
+	border-radius: 24px;
+	display: flex;
+	gap: 0.5rem;
+	flex-direction: column;
+	width: 100%;
+}
+
+.treatment-card__container {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.treatment-card__heading {
+	position: absolute;
+	z-index: 1;
+	font-size: 2rem;
+	font-weight: 600;
+	width: 100%;
+	padding: 1rem;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+		z-index: -1;
+	}
+}
+
+.treatment-card__img-container {
+	position: relative;
+	border-radius: 18px;
+	overflow: hidden;
+	flex-shrink: 0;
+
+	img {
+		max-width: 600px;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}
+
+.treatment-card__btn {
+	align-self: flex-end;
+	justify-self: flex-end;
+	color: var(--f1ebdd-clr);
+	outline: 1px solid var(--f1ebdd-clr);
+	outline-offset: -1px;
+	padding: 0.25rem 0.25rem 0.25rem 0.625rem;
+	line-height: 1;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.25rem;
+	transition:
+		background-color 0.2s ease,
+		color 0.2s ease;
+
+	:nth-child(2) {
+		background: var(--f1ebdd-clr);
+		color: var(--3a4036-clr);
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		aspect-ratio: 1/1;
+		transform: rotate(-45deg);
+		transition: transform 0.2s ease;
+	}
+
+	&:hover {
+		background: var(--f1ebdd-clr);
+		color: var(--3a4036-clr);
+
+		:nth-child(2) {
+			transform: rotate(0deg);
+		}
+	}
+}
+
+.treatment-card__price {
+	background: var(--light-green-clr);
+	padding: 1rem;
+	line-height: 1;
+	font-weight: 600;
+	border-radius: 24px;
+}
+
+@media screen and (width < 1200px) {
+	.treatment-card__container {
+		flex-direction: column;
+	}
+
+	.treatment-card__img-container {
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+@media screen and (width < 900px) {
+	.treatments {
+		padding: 112px 1rem 1rem;
+	}
+}

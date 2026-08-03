@@ -1,0 +1,192 @@
+{
+	"close": "Zavřít",
+	"bookAnAppointment": "Objednat se",
+	"durationAndPrice": "Délka a cena",
+
+	"nav": {
+		"home": "Úvod",
+		"about": "O nás",
+		"treatments": "Ošetření",
+		"contacts": "Kontakty"
+	},
+	"hero": {
+		"heading": "Cítit se <accent>lépe</accent>. Pohybovat se <accent>volně</accent>. Žít <accent>bez bolesti</accent>.",
+		"subheading": "",
+		"exploreTreatments": "Prozkoumat ošetření"
+	},
+
+	"swedishMassage": {
+		"title": "Švédská masáž",
+		"description": [
+			"Švédská masáž je jedna z nejznámějších a nejrozšířenějších klasických masážních technik na světě. Je zaměřena na uvolnění svalů, zlepšení prokrvení a celkovou regeneraci těla. Kombinuje různé masážní hmaty, které pomáhají odstranit napětí a navodit hluboký pocit relaxace.",
+			"Během masáže terapeut používá dlouhé plynulé tahy, hnětení svalů, tření, jemné poklepávání a tlakové techniky. Pohyby jsou přizpůsobeny individuálním potřebám klienta – od velmi jemné relaxační masáže až po intenzivnější práci se ztuhlými a namáhanými svaly.",
+			"Švédská masáž se často provádí s použitím masážních olejů, které umožňují hladké pohyby a zároveň pečují o pokožku. Zaměřuje se především na oblasti, kde se nejčastěji hromadí napětí, jako jsou záda, šíje, ramena a nohy.",
+			"Švédská masáž je ideální volbou pro každého, kdo hledá kombinaci relaxace a terapeutického účinku. Je vhodná pro začátečníky i pravidelné návštěvníky masáží a zanechává tělo uvolněné, osvěžené a regenerované."
+		],
+
+		"benefitsTitle": "Přínosy švédské masáže:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost",
+			"Zlepšuje krevní oběh a podporuje regeneraci",
+			"Pomáhá zmírnit stres a psychické napětí",
+			"Zlepšuje pohyblivost a pružnost svalů",
+			"Podporuje celkovou relaxaci a pocit pohody",
+			"Pomáhá odstranit únavu a napětí z každodenního života"
+		]
+	},
+
+	"footReflexology": {
+		"title": "Reflexologie chodidel",
+		"description": [
+			"Reflexologie chodidel je tradiční terapeutická metoda založená na principu, že určité body na chodidlech odpovídají jednotlivým orgánům a částem těla. Pomocí cíleného tlaku na reflexní body chodidel se podporuje přirozená rovnováha organismu, uvolnění napětí a celková harmonie těla a mysli.",
+			"Během ošetření terapeut používá palce a prsty k jemnému, ale cílenému tlaku na jednotlivé reflexní zóny chodidel. Masáž může být kombinována s uvolňujícími tahy, jemným protažením a péčí o pokožku pomocí přírodních olejů.",
+			"Reflexologie chodidel je oblíbená pro svou schopnost navodit hlubokou relaxaci a pomoci tělu zbavit se nahromaděného napětí. Mnoho lidí ji vyhledává jako příjemný způsob odpočinku a podpory celkové pohody.",
+			"Reflexologie chodidel je ideální volbou pro ty, kteří hledají jemné, relaxační ošetření zaměřené na chodidla, které spojuje tradiční techniky s příjemným zážitkem hlubokého uvolnění."
+		],
+
+		"benefitsTitle": "Přínosy reflexologie chodidel:",
+		"benefits": [
+			"Pomáhá uvolnit napětí a stres",
+			"Podporuje hlubokou relaxaci",
+			"Zlepšuje pocit lehkosti a pohodlí v nohách",
+			"Podporuje krevní oběh v chodidlech a dolních končetinách",
+			"Pomáhá navodit rovnováhu těla a mysli",
+			"Přispívá k celkovému pocitu regenerace a vitality"
+		]
+	},
+
+	"filipinoMassage": {
+		"title": "Filipínská masáž: Tradiční Pinoy Hilot",
+		"description": [
+			"Pinoy Hilot je tradiční filipínské léčebné umění, které se po generace předává z mistra na žáka. Vychází z přesvědčení, že zdraví vzniká z harmonie těla, mysli a životní energie. Jemnými, cílenými hmaty pomáhá obnovit přirozenou rovnováhu organismu, uvolnit energetické blokády a podpořit jeho schopnost přirozené regenerace.",
+			"Masáž začíná uvolňující masáží chodidel, která tělo zklidní a připraví na další ošetření. Následuje kombinace tradičních technik Hilot, zahrnující práci s tlakovými body, jemné hnětení, tření a plynulé masážní tahy za použití kvalitních přírodních olejů.",
+			"Ošetření se zaměřuje především na záda, šíji a chodidla – oblasti, kde se nejčastěji hromadí napětí a únava. Součástí masáže je také jemné protažení svalů a kloubů, které podporuje jejich uvolnění a přirozenou pohyblivost. Celý rituál završuje uklidňující masáž hlavy, jež navozuje pocit hlubokého klidu, harmonie a celkové obnovy.",
+			"Pinoy Hilot není jen masáž, ale tradiční léčebný rituál, který spojuje dotek, vědomou péči a staletou filipínskou moudrost. Jeho cílem je podpořit přirozené samoléčebné schopnosti organismu a navrátit tělu i mysli pocit harmonie, lehkosti a vnitřního klidu."
+		],
+
+		"benefitsTitle": "Přínosy tradiční masáže Pinoy Hilot:",
+		"benefits": [
+			"Podporuje přirozenou rovnováhu těla a mysli",
+			"Zlepšuje krevní oběh a napomáhá regeneraci organismu",
+			"Uvolňuje svalové napětí a ztuhlost",
+			"Pomáhá zmírnit stres a psychické vyčerpání",
+			"Přispívá k hluboké relaxaci a celkovému pocitu vitality"
+		]
+	},
+
+	"aromaticMassage": {
+		"title": "Aromatická masáž",
+		"description": [
+			"Aromatická masáž je relaxační a harmonizující terapie, která spojuje klasické masážní techniky s blahodárnými účinky přírodních esenciálních olejů. Je zaměřena na uvolnění těla, zklidnění mysli a podporu celkové pohody.",
+			"Během masáže se používají vybrané aromatické oleje, které jsou jemně vmasírovávány do pokožky pomocí pomalých, plynulých a uvolňujících tahů. Terapeut kombinuje lehké tlakové techniky, hlazení a jemné hnětení, aby pomohl uvolnit svalové napětí, podpořit krevní oběh a navodit stav hluboké relaxace.",
+			"Vůně esenciálních olejů působí nejen na tělo, ale také na smysly a psychiku. Pomáhají zklidnit mysl, snížit stres a vytvořit pocit harmonie a vnitřního klidu.",
+			"Aromatická masáž je ideální volbou pro ty, kteří hledají jemný, voňavý a uklidňující zážitek. Kombinace léčivého doteku a přírodních esenciálních olejů pomáhá obnovit energii, uvolnit tělo a přinést pocit hluboké harmonie a odpočinku."
+		],
+
+		"benefitsTitle": "Přínosy aromatické masáže:",
+		"benefits": [
+			"Uvolňuje svalové napětí a tělesnou únavu",
+			"Pomáhá snižovat stres a psychické napětí",
+			"Podporuje hlubokou relaxaci a pocit klidu",
+			"Zlepšuje prokrvení pokožky",
+			"Hydratuje a zjemňuje pokožku díky použití přírodních olejů",
+			"Podporuje rovnováhu těla a mysli"
+		]
+	},
+
+	"hotOilMassage": {
+		"title": "Masáž horkým olejem",
+		"description": [
+			"Tato masáž spojuje blahodárné účinky tepla, kvalitních olejů a terapeutického doteku. Nahřátý olej se pomalu nanáší na pokožku a terapeut jej zapracovává pomocí plynulých masážních tahů, jemného hnětení a rytmického tlaku.",
+			"Teplo pomáhá svalům rychleji se uvolnit, zmírňuje napětí a umožňuje hlubší působení masážních technik. Oleje zároveň vyživují a hydratují pokožku, zanechávají ji jemnou a hebkou.",
+			"Masáž horkým olejem je ideální pro ty, kteří hledají hřejivý, uklidňující a luxusní zážitek, který uvolní tělo, zklidní mysl a obnoví pocit energie a rovnováhy."
+		],
+
+		"benefitsTitle": "Přínosy masáže horkým olejem:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost",
+			"Podporuje hlubokou relaxaci",
+			"Pomáhá snižovat stres a psychické napětí",
+			"Zlepšuje krevní oběh",
+			"Vyživuje a hydratuje pokožku",
+			"Zklidňuje nervový systém",
+			"Přináší pocit harmonie a celkové pohody"
+		]
+	},
+
+	"balineseMassage": {
+		"title": "Balinese massage",
+		"description": [
+			"Balijská masáž začíná jemnými zahřívacími tahy za použití aromatických esenciálních olejů, které připraví tělo na hlubší uvolnění. Terapeut následně kombinuje dlouhé, plynulé masážní tahy s hloubkovými technikami, hnětením, akupresurou, rolováním tkání a jemným protahováním. Tato harmonická kombinace pomáhá uvolnit svalové napětí, podpořit krevní i lymfatický oběh a obnovit přirozenou rovnováhu těla.",
+			"Na rozdíl od masáží zaměřených pouze na konkrétní problematické partie je balijská masáž komplexním ošetřením celého těla, jehož cílem je podpořit celkovou fyzickou i psychickou pohodu.",
+			"Balijská masáž je ideální volbou pro každého, kdo hledá spojení účinné terapeutické péče s hlubokou relaxací. Díky kombinaci tradičních masážních technik a voňavých esenciálních olejů přináší jedinečný zážitek, který regeneruje tělo, zklidňuje mysl a navozuje pocit celkové harmonie."
+		],
+
+		"benefitsTitle": "Přínosy balijské masáže:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost",
+			"Podporuje krevní a lymfatický oběh",
+			"Pomáhá zmírnit stres a psychické napětí",
+			"Navozuje hlubokou relaxaci",
+			"Zlepšuje pružnost a pohyblivost těla",
+			"Obnovuje harmonii mezi tělem a myslí"
+		]
+	},
+
+	"relaxingThaiMassage": {
+		"title": "Relaxační thajská masáž",
+		"description": [
+			"Relaxační thajská masáž je jemné regenerační ošetření, které spojuje tradiční léčebné principy thajské masáže s blahodárnými účinky teplých přírodních olejů. Je navržena tak, aby uvolnila stres, podpořila celkovou pohodu a nabídla šetrnější alternativu ke klasické thajské masáži, aniž by ztratila její terapeutické přínosy.",
+			"Masáž začíná plynulými tahy s použitím teplých přírodních olejů, které prohřejí svaly a připraví tělo na jemné protahování. Terapeut následně kombinuje rytmický tlak dlaněmi, akupresuru, jemné hnětení a šetrné protahovací techniky, které uvolňují svalové napětí, zlepšují pohyblivost a podporují přirozenou flexibilitu těla. Na rozdíl od tradiční thajské masáže jsou všechny protahovací techniky prováděny velmi jemně a plynule, takže je tato masáž vhodná pro host",
+			"Balinese massage is an ideal choice for anyone seeking a combination of effective therapeutic care and deep relaxation. Thanks to the combination of traditional massage techniques and fragrant essential oils, it offers a unique experience that regenerates the body, calms the mind, and induces a feeling of overall harmony."
+		],
+
+		"benefitsTitle": "Benefits of Balinese massage:",
+		"benefits": [
+			"Relieves muscle tension and stiffness",
+			"Supports blood and lymphatic circulation",
+			"Helps reduce stress and mental tension",
+			"Induces deep relaxation",
+			"Improves the body's flexibility and mobility",
+			"Restores harmony between body and mind"
+		]
+	},
+
+	"hotStoneMassage": {
+		"title": "Masáž lávovými kameny",
+		"description": [
+			"Masáž lávovými kameny je hluboce relaxační a terapeutické ošetření, které kombinuje tradiční masážní techniky s použitím hladkých, nahřátých kamenů. Teplo z kamenů pomáhá uvolnit svaly, umožňuje intenzivnější působení masážních hmatů a zároveň vytváří příjemný pocit klidu a hluboké relaxace.",
+			"Masáž začíná přiložením teplých kamenů na vybraná místa těla, nejčastěji na záda, dlaně nebo chodidla, kde pomáhají prohřát a uvolnit svalové napětí. Terapeut následně kombinuje plynulé masážní tahy, jemný tlak a práci s nahřátými kameny, aby podpořil uvolnění napětí, zlepšil prokrvení a navodil stav hluboké relaxace.",
+			"Teplo z kamenů podporuje krevní oběh, pomáhá uvolnit ztuhlé svaly a přináší pocit harmonie a pohodlí. V kombinaci s aromatickými oleji a vědomými masážními technikami nabízí masáž lávovými kameny celostní zážitek pro tělo i mysl.",
+			"Masáž lávovými kameny je ideální volbou pro každého, kdo hledá hřejivý, uklidňující a luxusní masážní zážitek, který zanechá tělo uvolněné, osvěžené a regenerované."
+		],
+
+		"benefitsTitle": "Přínosy masáže lávovými kameny:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost",
+			"Podporuje hlubokou relaxaci a snižuje stres",
+			"Zlepšuje krevní oběh",
+			"Pomáhá uvolnit unavené a přetížené svaly",
+			"Zklidňuje nervový systém",
+			"Podporuje celkovou rovnováhu a pocit pohody"
+		]
+	},
+
+	"herbalCompressMassage": {
+		"title": "Bylinková masáž bylinnými měšci",
+		"description": [
+			"Bylinková masáž bylinnými měšci je tradiční terapeutická procedura, při které se používají nahřáté bavlněné měšce naplněné směsí léčivých bylin. Měšce se jemně přikládají, přitlačují a masírují po celém těle, čímž pomáhají uvolnit svalové napětí, zmírnit bolest a navodit hlubokou relaxaci.",
+			"Bylinné měšce obvykle obsahují směs bylin, jako je citronová tráva, zázvor, kurkuma, kafrová limeta, kafr a další aromatické léčivé rostliny. Teplo podporuje prokrvení, uvolňuje ztuhlé svaly a umožňuje lepší působení bylinných silic."
+		],
+
+		"benefitsTitle": "Přínosy masáže:",
+		"benefits": [
+			"Uvolňuje svalové napětí a ztuhlost.",
+			"Zmírňuje bolest svalů a kloubů.",
+			"Podporuje krevní a lymfatický oběh.",
+			"Pomáhá snižovat stres a navozuje hlubokou relaxaci.",
+			"Přispívá k regeneraci organismu.",
+			"Zanechává pokožku jemnou a příjemně provoněnou."
+		]
+	}
+}

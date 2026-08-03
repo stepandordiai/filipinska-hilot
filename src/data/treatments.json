@@ -1,0 +1,109 @@
+[
+	{
+		"name": "swedishMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "swedishMassage.description",
+		"benefitsTitle": "swedishMassage.benefitsTitle",
+		"benefits": "swedishMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "800" },
+			{ "time": "90", "price": "1200" },
+			{ "time": "120", "price": "1480" }
+		]
+	},
+	{
+		"name": "footReflexology.title",
+		"img": "/treatments/reflexologie-chodidel.png",
+		"description": "footReflexology.description",
+		"benefitsTitle": "footReflexology.benefitsTitle",
+		"benefits": "footReflexology.benefits",
+		"duration": [
+			{ "time": "30", "price": "750" },
+			{ "time": "60", "price": "980" }
+		]
+	},
+	{
+		"name": "filipinoMassage.title",
+		"img": "/treatments/filipinska-masaz.png",
+		"description": "hotStoneMassage.description",
+		"benefitsTitle": "footReflexology.benefitsTitle",
+		"benefits": "footReflexology.benefits",
+		"duration": [
+			{ "time": "60", "price": "880" },
+			{ "time": "90", "price": "1480" },
+			{ "time": "120", "price": "1700" }
+		]
+	},
+	{
+		"name": "aromaticMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "aromaticMassage.description",
+		"benefitsTitle": "aromaticMassage.benefitsTitle",
+		"benefits": "aromaticMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "880" },
+			{ "time": "90", "price": "1480" },
+			{ "time": "120", "price": "1700" }
+		]
+	},
+	{
+		"name": "hotOilMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "hotOilMassage.description",
+		"benefitsTitle": "hotOilMassage.benefitsTitle",
+		"benefits": "hotOilMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "820" },
+			{ "time": "90", "price": "1350" },
+			{ "time": "120", "price": "1550" }
+		]
+	},
+	{
+		"name": "balineseMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "balineseMassage.description",
+		"benefitsTitle": "balineseMassage.benefitsTitle",
+		"benefits": "balineseMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "950" },
+			{ "time": "90", "price": "1580" },
+			{ "time": "120", "price": "1870" }
+		]
+	},
+	{
+		"name": "relaxingThaiMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "relaxingThaiMassage.description",
+		"benefitsTitle": "footReflexology.benefitsTitle",
+		"benefits": "footReflexology.benefits",
+		"duration": [
+			{ "time": "60", "price": "900" },
+			{ "time": "90", "price": "1500" },
+			{ "time": "120", "price": "1700" }
+		]
+	},
+	{
+		"name": "herbalCompressMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "herbalCompressMassage.description",
+		"benefitsTitle": "herbalCompressMassage.benefitsTitle",
+		"benefits": "herbalCompressMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "1250" },
+			{ "time": "90", "price": "1780" },
+			{ "time": "120", "price": "2100" }
+		]
+	},
+	{
+		"name": "hotStoneMassage.title",
+		"img": "/treatments/svedska-masaz.png",
+		"description": "hotStoneMassage.description",
+		"benefitsTitle": "hotStoneMassage.benefitsTitle",
+		"benefits": "hotStoneMassage.benefits",
+		"duration": [
+			{ "time": "60", "price": "1250" },
+			{ "time": "90", "price": "1780" },
+			{ "time": "120", "price": "2100" }
+		]
+	}
+]
