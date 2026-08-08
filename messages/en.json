@@ -172,5 +172,14 @@
 			"Přispívá k regeneraci organismu.",
 			"Zanechává pokožku jemnou a příjemně provoněnou."
 		]
+	},
+	"feetLegsMassage": {
+		"title": "Feet & Legs"
+	},
+	"neckAndBackMassage": {
+		"title": "Neck & Back"
+	},
+	"headMassage": {
+		"title": "Head Massage"
 	}
 }

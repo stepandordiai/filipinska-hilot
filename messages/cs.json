@@ -115,7 +115,7 @@
 	},
 
 	"balineseMassage": {
-		"title": "Balinese massage",
+		"title": "Balijská masáž",
 		"description": [
 			"Balijská masáž začíná jemnými zahřívacími tahy za použití aromatických esenciálních olejů, které připraví tělo na hlubší uvolnění. Terapeut následně kombinuje dlouhé, plynulé masážní tahy s hloubkovými technikami, hnětením, akupresurou, rolováním tkání a jemným protahováním. Tato harmonická kombinace pomáhá uvolnit svalové napětí, podpořit krevní i lymfatický oběh a obnovit přirozenou rovnováhu těla.",
 			"Na rozdíl od masáží zaměřených pouze na konkrétní problematické partie je balijská masáž komplexním ošetřením celého těla, jehož cílem je podpořit celkovou fyzickou i psychickou pohodu.",
@@ -188,5 +188,14 @@
 			"Přispívá k regeneraci organismu.",
 			"Zanechává pokožku jemnou a příjemně provoněnou."
 		]
+	},
+	"feetLegsMassage": {
+		"title": "Chodidla, Nohy"
+	},
+	"neckAndBackMassage": {
+		"title": "Šíje a Záda"
+	},
+	"headMassage": {
+		"title": "Masáž hlavy"
 	}
 }

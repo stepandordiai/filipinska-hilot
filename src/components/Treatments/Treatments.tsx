@@ -28,11 +28,15 @@ export default async function Treatments() {
 									<h3 className="treatment-card__heading">
 										{t(treatment.name)}
 									</h3>
-									<img
-										className="treatment-card__img"
-										src={treatment.img}
-										alt=""
-									/>
+									{treatment.img ? (
+										<img
+											className="treatment-card__img"
+											src={treatment.img}
+											alt=""
+										/>
+									) : (
+										<div className="treatment-card__img-ph"></div>
+									)}
 								</div>
 								<div
 									style={{
@@ -42,19 +46,25 @@ export default async function Treatments() {
 										width: "100%",
 									}}
 								>
-									{t.raw(treatment.description).map((p: string, i: number) => (
-										<p key={i} style={{ fontSize: "18px" }}>
-											{p}
+									{treatment.description &&
+										t.raw(treatment.description).map((p: string, i: number) => (
+											<p key={i} style={{ fontSize: "18px" }}>
+												{p}
+											</p>
+										))}
+									{treatment.benefitsTitle && (
+										<p style={{ fontSize: "18px" }}>
+											{t(treatment.benefitsTitle)}
 										</p>
-									))}
-									<p style={{ fontSize: "18px" }}>
-										{t(treatment.benefitsTitle)}
-									</p>
-									<ul style={{ fontSize: "18px" }}>
-										{t.raw(treatment.benefits).map((b: string, i: number) => {
-											return <li key={i}>{b}</li>;
-										})}
-									</ul>
+									)}
+									{treatment.benefits && (
+										<ul style={{ fontSize: "18px" }}>
+											{t.raw(treatment.benefits).map((b: string, i: number) => {
+												return <li key={i}>{b}</li>;
+											})}
+										</ul>
+									)}
+
 									<div
 										style={{
 											display: "flex",

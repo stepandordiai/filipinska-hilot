@@ -1,11 +1,12 @@
 .contacts {
 	min-height: 100svh;
 	background: var(--d3c3a5-clr);
-	padding: 112px 2rem 2rem;
+	padding: 112px 0 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
+	color: var(--3a4036-clr);
 }
 
 .contacts__title {
@@ -38,6 +39,10 @@
 		border-left: 1px solid var(--3a4036-clr);
 		border-right: 1px solid var(--3a4036-clr);
 	}
+}
+
+.contacts__link {
+	color: var(--3a4036-clr) !important;
 }
 
 @media screen and (width < 900px) {

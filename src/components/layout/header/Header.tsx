@@ -72,8 +72,8 @@ export default function Header() {
 		<>
 			<header className="header">
 				<Link className="header__logo" href="/">
-					<Image src={"/logo.png"} width={48} height={48} alt=""></Image>
-					<span>Filipínská Hilot</span>
+					<Image src={"/logo-2.png"} width={80} height={80} alt=""></Image>
+					{/* <span>Filipínská Hilot</span> */}
 				</Link>
 				<nav className="header__nav">
 					<Link className="header__nav-link" href="/#uvod">
