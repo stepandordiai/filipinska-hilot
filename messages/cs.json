@@ -2,6 +2,7 @@
 	"close": "Zavřít",
 	"bookAnAppointment": "Objednat se",
 	"durationAndPrice": "Délka a cena",
+	"closed": "Zavřeno",
 
 	"nav": {
 		"home": "Úvod",
@@ -9,10 +10,42 @@
 		"treatments": "Ošetření",
 		"contacts": "Kontakty"
 	},
+
+	"home": {
+		"meta": {
+			"title": "",
+			"description": "Autentická filipínská masáž Hilot pro hluboké uvolnění a úlevu od bolesti. Individuálně přizpůsobené ošetření pro obnovu rovnováhy, uvolnění napětí a nabití novou energií. Rezervujte si termín ještě dnes."
+		}
+	},
+
 	"hero": {
-		"heading": "Cítit se <accent>lépe</accent>. Pohybovat se <accent>volně</accent>. Žít <accent>bez bolesti</accent>.",
-		"subheading": "",
-		"exploreTreatments": "Prozkoumat ošetření"
+		"heading": "Poznejte sílu <accent>tradiční</accent> filipínské <accent>masáže</accent> Hilot a dopřejte svému tělu péči, kterou si zaslouží.",
+		"subheading": "Objevte znovu spojení se svým tělem, zklidněte svou mysl a dopřejte si autentický léčivý dotek tradiční filipínské masáže Hilot. Každé ošetření je pečlivě přizpůsobeno Vašim individuálním potřebám a pomáhá uvolnit napětí, obnovit rovnováhu a zanechat Vás svěží a plné nové energie.",
+		"exploreTreatments": "Prozkoumejte naše služby"
+	},
+
+	"about": {
+		"heading": "O",
+		"description": [
+			"Vítejte ve Filipínská Hilot Wellness Masáž, kde se tradiční filipínské léčebné techniky propojují s profesionální péčí o Vaše zdraví a celkovou pohodu.",
+			"Objevte znovu spojení se svým tělem, zklidněte svou mysl a dopřejte si autentický léčivý dotek tradiční filipínské masáže Hilot. Každé ošetření je pečlivě přizpůsobeno Vašim individuálním potřebám a pomáhá uvolnit napětí, obnovit rovnováhu a zanechat Vás svěží a plné nové energie.",
+			"Dopřejte si chvíli klidu v příjemném a harmonickém prostředí, kde se tradiční filipínské wellness postupy spojují s profesionální péčí a vytvářejí jedinečný zážitek plný uvolnění, pohody a hluboké relaxace."
+		],
+
+		"yearsOfExperience": "let zkušeností"
+	},
+
+	"treatments": {
+		"heading": "Služby",
+		"description": "Objevte masáže šité na míru vašemu tělu i mysli"
+	},
+
+	"contacts": {
+		"heading": "Kontakty",
+		"tel": "Telefonní číslo",
+		"address": "Adresa",
+		"mapHeading": "Kde nás najdete",
+		"openingHoursHeading": "Otevírací doba"
 	},
 
 	"swedishMassage": {
@@ -56,7 +89,7 @@
 	},
 
 	"filipinoMassage": {
-		"title": "Filipínská masáž: Tradiční Pinoy Hilot",
+		"title": "Filipínská masáž",
 		"description": [
 			"Pinoy Hilot je tradiční filipínské léčebné umění, které se po generace předává z mistra na žáka. Vychází z přesvědčení, že zdraví vzniká z harmonie těla, mysli a životní energie. Jemnými, cílenými hmaty pomáhá obnovit přirozenou rovnováhu organismu, uvolnit energetické blokády a podpořit jeho schopnost přirozené regenerace.",
 			"Masáž začíná uvolňující masáží chodidel, která tělo zklidní a připraví na další ošetření. Následuje kombinace tradičních technik Hilot, zahrnující práci s tlakovými body, jemné hnětení, tření a plynulé masážní tahy za použití kvalitních přírodních olejů.",
@@ -189,13 +222,20 @@
 			"Zanechává pokožku jemnou a příjemně provoněnou."
 		]
 	},
+
 	"feetLegsMassage": {
 		"title": "Chodidla, Nohy"
 	},
+
 	"neckAndBackMassage": {
 		"title": "Šíje a Záda"
 	},
+
 	"headMassage": {
 		"title": "Masáž hlavy"
+	},
+
+	"footer": {
+		"navigation": "Navigace"
 	}
 }

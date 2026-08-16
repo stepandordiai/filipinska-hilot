@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Raleway, Courgette } from "next/font/google";
-import Header from "@/components/layout/header/Header";
-import Footer from "@/components/layout/footer/Footer";
 import { BASE_URL } from "@/lib/constants";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import "@/scss/globals.scss";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import Header from "@/components/layout/header/Header";
+import Footer from "@/components/layout/footer/Footer";
+import "@/scss/globals.scss";
 
 const raleway = Raleway({
 	variable: "--font-raleway",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 	metadataBase: new URL(BASE_URL),
 	// TODO: learn this
 	title: {
-		template: "%s | Filipínská Hilot",
-		default: "Filipínská Hilot",
+		template: "%s | Filipínská Hilot Wellness Masáž",
+		default: "Filipínská Hilot Wellness Masáž",
 	},
 };
 

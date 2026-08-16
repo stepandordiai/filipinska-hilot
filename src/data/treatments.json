@@ -9,7 +9,8 @@
 			{ "time": "60", "price": "800" },
 			{ "time": "90", "price": "1250" },
 			{ "time": "120", "price": "1450" }
-		]
+		],
+		"path": "svedska-masaz"
 	},
 	{
 		"name": "footReflexology.title",
@@ -20,7 +21,8 @@
 		"duration": [
 			{ "time": "60", "price": "750" },
 			{ "time": "90", "price": "980" }
-		]
+		],
+		"path": "reflexologie-chodidel"
 	},
 	{
 		"name": "filipinoMassage.title",
@@ -32,7 +34,8 @@
 			{ "time": "60", "price": "850" },
 			{ "time": "90", "price": "1300" },
 			{ "time": "120", "price": "1590" }
-		]
+		],
+		"path": "filipinska-masaz"
 	},
 	{
 		"name": "aromaticMassage.title",
@@ -44,7 +47,8 @@
 			{ "time": "60", "price": "850" },
 			{ "time": "90", "price": "1300" },
 			{ "time": "120", "price": "1590" }
-		]
+		],
+		"path": "aromaticka-masaz"
 	},
 	{
 		"name": "hotOilMassage.title",
@@ -56,7 +60,8 @@
 			{ "time": "60", "price": "800" },
 			{ "time": "90", "price": "1250" },
 			{ "time": "120", "price": "1450" }
-		]
+		],
+		"path": "masaz-horkym-olejem"
 	},
 	{
 		"name": "balineseMassage.title",
@@ -68,7 +73,8 @@
 			{ "time": "60", "price": "900" },
 			{ "time": "90", "price": "1480" },
 			{ "time": "120", "price": "1650" }
-		]
+		],
+		"path": "balijska-masaz"
 	},
 	{
 		"name": "relaxingThaiMassage.title",
@@ -80,7 +86,8 @@
 			{ "time": "60", "price": "900" },
 			{ "time": "90", "price": "1480" },
 			{ "time": "120", "price": "1650" }
-		]
+		],
+		"path": "relaxacni-thajska-masaz"
 	},
 	{
 		"name": "herbalCompressMassage.title",
@@ -92,7 +99,8 @@
 			{ "time": "60", "price": "1250" },
 			{ "time": "90", "price": "1780" },
 			{ "time": "120", "price": "2100" }
-		]
+		],
+		"path": "bylinkova-masaz-bylinnymi-mesci"
 	},
 	{
 		"name": "hotStoneMassage.title",
@@ -104,21 +112,25 @@
 			{ "time": "60", "price": "1250" },
 			{ "time": "90", "price": "1580" },
 			{ "time": "120", "price": "1900" }
-		]
+		],
+		"path": "masaz-lavovymi-kameny"
 	},
 	{
 		"name": "feetLegsMassage.title",
 		"duration": [{ "time": "30", "price": "600" }],
-		"isExpress": true
+		"isExpress": true,
+		"path": "chodidla-nohy"
 	},
 	{
 		"name": "neckAndBackMassage.title",
 		"duration": [{ "time": "30", "price": "600" }],
-		"isExpress": true
+		"isExpress": true,
+		"path": "sije-a-zada"
 	},
 	{
 		"name": "headMassage.title",
 		"duration": [{ "time": "20", "price": "450" }],
-		"isExpress": true
+		"isExpress": true,
+		"path": "masaz-hlavy"
 	}
 ]

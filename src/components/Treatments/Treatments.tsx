@@ -7,22 +7,24 @@ export default async function Treatments() {
 	const t = await getTranslations();
 
 	return (
-		<section className="treatments" id="treatments">
-			<h2 className="treatments__title">Treatments</h2>
+		<section className="treatments" id="sluzby">
+			<h2 className="treatments__title">{t("treatments.heading")}</h2>
 			<p
 				style={{
 					fontSize: "clamp(2rem, 4vw, 4rem)",
 					color: "var(--f1ebdd-clr)",
 				}}
 			>
-				Objevte{" "}
-				<span style={{ fontFamily: "var(--font-courgette)" }}>masáže</span> šité
-				na míru vašemu tělu i mysli
+				{t("treatments.description")}
 			</p>
 			<div className="treatments-grid">
 				{treatments.map((treatment) => {
 					return (
-						<div key={treatment.name} className="treatment-card">
+						<div
+							key={treatment.name}
+							className="treatment-card"
+							id={treatment.path}
+						>
 							<div className="treatment-card__container">
 								<div className="treatment-card__img-container">
 									<h3 className="treatment-card__heading">

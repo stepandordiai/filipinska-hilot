@@ -2,6 +2,7 @@
 	"close": "Close",
 	"bookAnAppointment": "Book an Appointment",
 	"durationAndPrice": "Duration and Price",
+	"closed": "Closed",
 
 	"nav": {
 		"home": "Home",
@@ -9,10 +10,42 @@
 		"treatments": "Treatments",
 		"contacts": "Contacts"
 	},
+
+	"home": {
+		"meta": {
+			"title": "",
+			"description": "Authentic Filipino Hilot massage for deep relaxation and pain relief. Personalized treatments to restore balance, ease tension, and boost energy. Book now."
+		}
+	},
+
 	"hero": {
 		"heading": "Feel <accent>Better</accent>. Move <accent>Freely</accent>. Live <accent>Pain-Free</accent>.",
-		"subheading": "",
-		"exploreTreatments": "Explore Treatments"
+		"subheading": "Rediscover the connection with your body, calm your mind, and treat yourself to the authentic healing touch of traditional Filipino Hilot massage. Every treatment is carefully tailored to your individual needs, helping to release tension, restore balance, and leave you feeling refreshed and full of new energy.",
+		"exploreTreatments": "Explore Our Services"
+	},
+
+	"about": {
+		"heading": "About",
+		"description": [
+			"Welcome to Filipínská Hilot Wellness Masáž, where traditional Filipino healing techniques meet professional care for your health and overall wellbeing.",
+			"Rediscover the connection with your body, calm your mind, and treat yourself to the authentic healing touch of traditional Filipino Hilot massage. Every treatment is carefully tailored to your individual needs, helping to release tension, restore balance, and leave you feeling refreshed and full of new energy.",
+			"Indulge in a moment of peace in a pleasant, harmonious setting, where traditional Filipino wellness practices combine with professional care to create a unique experience full of relaxation, comfort, and deep tranquility."
+		],
+
+		"yearsOfExperience": "years of experience"
+	},
+
+	"treatments": {
+		"heading": "Treatments",
+		"description": "Discover massages tailored to both your body and mind"
+	},
+
+	"contacts": {
+		"heading": "Contacts",
+		"tel": "Phone number",
+		"address": "Address",
+		"mapHeading": "Where you can find us",
+		"openingHoursHeading": "Opening hours"
 	},
 
 	"swedishMassage": {
@@ -34,6 +67,7 @@
 			"Helps eliminate fatigue and tension from everyday life"
 		]
 	},
+
 	"footReflexology": {
 		"title": "Foot reflexology",
 		"description": [
@@ -173,13 +207,20 @@
 			"Zanechává pokožku jemnou a příjemně provoněnou."
 		]
 	},
+
 	"feetLegsMassage": {
 		"title": "Feet & Legs"
 	},
+
 	"neckAndBackMassage": {
 		"title": "Neck & Back"
 	},
+
 	"headMassage": {
 		"title": "Head Massage"
+	},
+
+	"footer": {
+		"navigation": "Navigation"
 	}
 }

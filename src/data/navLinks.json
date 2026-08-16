@@ -1,0 +1,18 @@
+[
+	{
+		"label": "nav.home",
+		"path": "#uvod"
+	},
+	{
+		"label": "nav.about",
+		"path": "#o-filipinska-hilot-wellness-masaz"
+	},
+	{
+		"label": "nav.treatments",
+		"path": "#sluzby"
+	},
+	{
+		"label": "nav.contacts",
+		"path": "#kontakty"
+	}
+]

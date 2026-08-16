@@ -1,5 +1,4 @@
 .treatments {
-	min-height: 100svh;
 	background: var(--light-green-clr);
 	display: flex;
 	flex-direction: column;
@@ -26,6 +25,7 @@
 }
 
 .treatment-card {
+	scroll-margin-top: 112px;
 	position: relative;
 	color: var(--f1ebdd-clr);
 	background: var(--3a4036-clr);

@@ -2,10 +2,11 @@
 
 import { useTranslations } from "next-intl";
 import ArrowRightShortIcon from "@/components/icons/ArrowRightShortIcon";
-import "./styles.scss";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import navLinks from "@/data/navLinks.json";
+import "./styles.scss";
 
 export default function Header() {
 	const t = useTranslations();
@@ -35,8 +36,10 @@ export default function Header() {
 	useEffect(() => {
 		const sections = [
 			document.getElementById("uvod") as HTMLElement,
-			document.getElementById("o-filipinska-hilot") as HTMLElement,
-			document.getElementById("treatments") as HTMLElement,
+			document.getElementById(
+				"o-filipinska-hilot-wellness-masaz",
+			) as HTMLElement,
+			document.getElementById("sluzby") as HTMLElement,
 			document.getElementById("kontakty") as HTMLElement,
 		];
 		const headerNavLinks = document.querySelectorAll(
@@ -76,62 +79,40 @@ export default function Header() {
 					{/* <span>Filipínská Hilot</span> */}
 				</Link>
 				<nav className="header__nav">
-					<Link className="header__nav-link" href="/#uvod">
-						{t("nav.home")}
-					</Link>
-					<Link className="header__nav-link" href="/#o-filipinska-hilot">
-						{t("nav.about")}
-					</Link>
-					<Link className="header__nav-link" href="/#treatments">
-						{t("nav.treatments")}
-					</Link>
-					<Link className="header__nav-link" href="/#kontakty">
-						{t("nav.contacts")}
-					</Link>
+					{navLinks.map((navLink, i) => {
+						return (
+							<a key={i} className="header__nav-link" href={navLink.path}>
+								{t(navLink.label)}
+							</a>
+						);
+					})}
 				</nav>
 				<button
 					onClick={() => setMenuOpen((prev) => !prev)}
 					className="menu__btn"
 				>
-					{menuOpen ? "Close" : "Menu"}
+					{menuOpen ? t("close") : "Menu"}
 				</button>
-				<Link href="/#treatments" className="header__primary-btn">
-					<span>Explore Treatments</span>
+				<a
+					href="https://local.termino.eu/embed/filipinska-hilot-wellness-masaz"
+					target="_blank"
+					className="header__primary-btn"
+				>
+					<span>{t("bookAnAppointment")}</span>
 					<span>
 						<ArrowRightShortIcon size={20} />
 					</span>
-				</Link>
+				</a>
 			</header>
 			<div className={`menu ${menuOpen ? "menu--open" : ""}`}>
 				<nav className="menu__nav">
-					<Link
-						onClick={() => setMenuOpen(false)}
-						className="menu__nav-link"
-						href="/#uvod"
-					>
-						{t("nav.home")}
-					</Link>
-					<Link
-						onClick={() => setMenuOpen(false)}
-						className="menu__nav-link"
-						href="/#o-filipinska-hilot"
-					>
-						{t("nav.about")}
-					</Link>
-					<Link
-						onClick={() => setMenuOpen(false)}
-						className="menu__nav-link"
-						href="/#treatments"
-					>
-						{t("nav.treatments")}
-					</Link>
-					<Link
-						onClick={() => setMenuOpen(false)}
-						className="menu__nav-link"
-						href="/#kontakty"
-					>
-						{t("nav.contacts")}
-					</Link>
+					{navLinks.map((navLink, i) => {
+						return (
+							<a key={i} className="menu__nav-link" href={navLink.path}>
+								{t(navLink.label)}
+							</a>
+						);
+					})}
 				</nav>
 				<div className="menu-contacts__container">
 					<div>
