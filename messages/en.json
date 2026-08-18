@@ -89,7 +89,22 @@
 	},
 
 	"filipinoMassage": {
-		"title": "Filipino massage"
+		"title": "Filipino Massage: Traditional Pinoy Hilot",
+		"description": [
+			"Pinoy Hilot is a traditional Filipino healing art passed down for generations from master to student. It is based on the belief that health arises from harmony between body, mind, and life energy. Through gentle, targeted touches, it helps restore the body's natural balance, release energy blockages, and support its capacity for natural regeneration.",
+			"The massage begins with a relaxing foot massage, which calms the body and prepares it for further treatment. This is followed by a combination of traditional Hilot techniques, including pressure point work, gentle kneading, friction, and flowing massage strokes using high-quality natural oils.",
+			"The treatment focuses mainly on the back, neck, and feet – areas where tension and fatigue most commonly accumulate. The massage also includes gentle stretching of muscles and joints, which supports their release and natural mobility. The entire ritual is completed with a soothing head massage that induces a feeling of deep calm, harmony, and overall renewal.",
+			"Pinoy Hilot is not just a massage, but a traditional healing ritual that combines touch, mindful care, and centuries-old Filipino wisdom. Its aim is to support the body's natural self-healing abilities and restore a sense of harmony, lightness, and inner peace to both body and mind."
+		],
+
+		"benefitsTitle": "Benefits of traditional Pinoy Hilot massage:",
+		"benefits": [
+			"Supports the natural balance of body and mind",
+			"Improves blood circulation and aids the body's regeneration",
+			"Releases muscle tension and stiffness",
+			"Helps reduce stress and mental exhaustion",
+			"Contributes to deep relaxation and an overall feeling of vitality"
+		]
 	},
 
 	"aromaticMassage": {

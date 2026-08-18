@@ -86,8 +86,7 @@
 }
 
 .treatment-card__btn {
-	align-self: flex-end;
-	justify-self: flex-end;
+	margin-left: auto;
 	color: var(--f1ebdd-clr);
 	outline: 1px solid var(--f1ebdd-clr);
 	outline-offset: -1px;
@@ -147,6 +146,6 @@
 
 @media screen and (width < 900px) {
 	.treatments {
-		padding: 112px 1rem 1rem;
+		padding: 112px 0.5rem 0.5rem;
 	}
 }

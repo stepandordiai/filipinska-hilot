@@ -1,0 +1,73 @@
+@use "@/scss/mixins" as *;
+
+.lng-select {
+	position: relative;
+}
+
+@keyframes lngSelect {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.lng-select__btn {
+	padding: 1rem;
+	border-radius: 24px;
+	color: var(--f1ebdd-clr);
+	outline: 1px solid var(--f1ebdd-clr) !important;
+	outline-offset: -1px !important;
+	line-height: 1;
+	transition: all 0.2s;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	opacity: 0;
+	transform: translateY(-10px);
+	animation: lngSelect 1s forwards;
+	box-sizing: border-box;
+}
+
+.lng-select__btn--active {
+	background: var(--f1ebdd-clr);
+	color: var(--3a4036-clr);
+}
+
+.lng-select__dd {
+	position: absolute;
+	left: 50%;
+	display: flex;
+	flex-direction: column;
+	outline: 1px solid var(--f1ebdd-clr);
+	outline-offset: -1px;
+	border-radius: 24px;
+	color: var(--f1ebdd-clr);
+	opacity: 0;
+	transform: translate(-50%, 14px);
+	transition:
+		opacity 0.3s,
+		box-shadow 0.3s,
+		transform 0.3s;
+	overflow: hidden;
+	pointer-events: none;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
+	&--active {
+		opacity: 1;
+		transform: translate(-50%, 4px);
+		pointer-events: auto;
+	}
+}
+
+.lng-select__option {
+	padding: 1rem;
+	line-height: 1;
+	@include flex-center;
+	background: var(--bg-clr);
+	cursor: pointer;
+}
+
+.lng-select__option--active {
+	background: var(--f1ebdd-clr);
+	color: var(--3a4036-clr);
+}

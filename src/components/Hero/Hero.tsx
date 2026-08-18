@@ -39,7 +39,7 @@ export default function Hero() {
 						),
 					})}
 				</h1>
-				<p className="hero__subheading">{t("hero.subheading")}</p>
+				{/* <p className="hero__subheading">{t("hero.subheading")}</p> */}
 				<div style={{ display: "flex", gap: "0.25rem", flexWrap: "wrap" }}>
 					<a
 						href="https://local.termino.eu/embed/filipinska-hilot-wellness-masaz"
@@ -59,10 +59,12 @@ export default function Hero() {
 			<div
 				className={`hero__treatment-slider ${visible ? "hero__treatment-slider--visible" : ""}`}
 			>
-				<img src={treatments[index].img} alt={t(treatments[index].name)} />
+				<div className="hero__treatment-slider-img-container">
+					<img src={treatments[index].img} alt={t(treatments[index].name)} />
+				</div>
 				<div className="hero__treatment-slider-details">
 					<p>{t(treatments[index].name)}</p>
-					<p
+					{/* <p
 						style={{
 							fontSize: "1.25rem",
 							fontWeight: "500",
@@ -85,9 +87,9 @@ export default function Hero() {
 								</div>
 							);
 						})}
-					</div>
+					</div> */}
 					<a
-						className="treatment-card__btn"
+						className="hero__treatment-slider-btn"
 						href={"#" + treatments[index].path}
 					>
 						<span>Read more</span>

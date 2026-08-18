@@ -10,11 +10,21 @@
 	padding: 1rem 2rem;
 }
 
+@keyframes animateHeader {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .header__logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 0.25rem;
+	opacity: 0;
+	transform: translateY(-10px);
+	animation: animateHeader 1s forwards;
 
 	span {
 		font-size: 1.5rem;
@@ -24,6 +34,9 @@
 .header__nav {
 	display: flex;
 	gap: 0.25rem;
+	opacity: 0;
+	transform: translateY(-10px);
+	animation: animateHeader 1s forwards;
 }
 
 .header__nav-link {
@@ -48,6 +61,9 @@
 	gap: 0.25rem;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
+	opacity: 0;
+	transform: translateY(-10px);
+	animation: animateHeader 1s forwards;
 	transition:
 		background-color 0.2s ease,
 		color 0.2s ease;
@@ -86,6 +102,9 @@
 	line-height: 1;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
+	opacity: 0;
+	transform: translateY(-10px);
+	animation: animateHeader 1s forwards;
 
 	&:focus {
 		outline: 1px solid var(--f1ebdd-clr);

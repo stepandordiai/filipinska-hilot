@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import navLinks from "@/data/navLinks.json";
 import "./styles.scss";
+import LngSelect from "@/components/LngSelect/LngSelect";
 
 export default function Header() {
 	const t = useTranslations();
@@ -87,22 +88,32 @@ export default function Header() {
 						);
 					})}
 				</nav>
-				<button
-					onClick={() => setMenuOpen((prev) => !prev)}
-					className="menu__btn"
+				<div
+					style={{
+						display: "flex",
+						gap: "0.25rem",
+						justifyContent: "center",
+						alignItems: "center",
+					}}
 				>
-					{menuOpen ? t("close") : "Menu"}
-				</button>
-				<a
-					href="https://local.termino.eu/embed/filipinska-hilot-wellness-masaz"
-					target="_blank"
-					className="header__primary-btn"
-				>
-					<span>{t("bookAnAppointment")}</span>
-					<span>
-						<ArrowRightShortIcon size={20} />
-					</span>
-				</a>
+					<button
+						onClick={() => setMenuOpen((prev) => !prev)}
+						className="menu__btn"
+					>
+						{menuOpen ? t("close") : "Menu"}
+					</button>
+					<a
+						href="https://local.termino.eu/embed/filipinska-hilot-wellness-masaz"
+						target="_blank"
+						className="header__primary-btn"
+					>
+						<span>{t("bookAnAppointment")}</span>
+						<span>
+							<ArrowRightShortIcon size={20} />
+						</span>
+					</a>
+					<LngSelect />
+				</div>
 			</header>
 			<div className={`menu ${menuOpen ? "menu--open" : ""}`}>
 				<nav className="menu__nav">

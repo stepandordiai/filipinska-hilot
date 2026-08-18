@@ -7,22 +7,22 @@ import "./styles.scss";
 
 const businessHours = [
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-20:00",
 	},
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-20:00",
 	},
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-20:00",
 	},
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-20:00",
 	},
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-21:00",
 	},
 	{
-		hours: "8:00-19:00",
+		hours: "09:00-21:00",
 	},
 	{
 		hours: "closed",
@@ -115,6 +115,16 @@ export default async function Contacts() {
 						);
 					})}
 				</ul>
+				<p
+					style={{
+						marginTop: "20px",
+						textAlign: "center",
+						fontWeight: "500",
+						fontSize: "18px",
+					}}
+				>
+					Closed on public holidays.
+				</p>
 			</div>
 		</section>
 	);

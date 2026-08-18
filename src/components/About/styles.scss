@@ -57,6 +57,10 @@
 }
 
 @media screen and (width < 900px) {
+	.about {
+		padding: 112px 0.5rem 0.5rem;
+	}
+
 	.about__milestones-container {
 		flex-direction: column;
 
