@@ -27,9 +27,9 @@
 	{
 		"name": "filipinoMassage.title",
 		"img": "/treatments/filipinska-masaz.png",
-		"description": "hotStoneMassage.description",
-		"benefitsTitle": "footReflexology.benefitsTitle",
-		"benefits": "footReflexology.benefits",
+		"description": "filipinoMassage.description",
+		"benefitsTitle": "filipinoMassage.benefitsTitle",
+		"benefits": "filipinoMassage.benefits",
 		"duration": [
 			{ "time": "60", "price": "850" },
 			{ "time": "90", "price": "1300" },
@@ -117,12 +117,14 @@
 	},
 	{
 		"name": "feetLegsMassage.title",
+		"img": "/treatments/chodidla-nohy.png",
 		"duration": [{ "time": "30", "price": "600" }],
 		"isExpress": true,
 		"path": "chodidla-nohy"
 	},
 	{
 		"name": "neckAndBackMassage.title",
+		"img": "/treatments/sije-a-zada.png",
 		"duration": [{ "time": "30", "price": "600" }],
 		"isExpress": true,
 		"path": "sije-a-zada"
@@ -132,5 +134,12 @@
 		"duration": [{ "time": "20", "price": "450" }],
 		"isExpress": true,
 		"path": "masaz-hlavy"
+	},
+	{
+		"name": "signatureFilipinoHilotMassage.title",
+		"img": "/treatments/signature-filipino-hilot-massage.png",
+		"description": "signatureFilipinoHilotMassage.description",
+		"duration": [{ "time": "120", "price": "2300" }],
+		"path": "podpisova-filipinska-hilot-masaz-s-bylinnymi-mesci-a-reflexologii"
 	}
 ]

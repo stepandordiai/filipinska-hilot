@@ -235,6 +235,13 @@
 		"title": "Head Massage"
 	},
 
+	"signatureFilipinoHilotMassage": {
+		"title": "Signature Filipino Hilot Massage with Herbal Compresses and Reflexology",
+		"description": [
+			"Experience the healing art of traditional Filipino Hilot massage combined with warm herbal compress therapy and relaxing foot reflexology. This treatment relieves muscle tension, improves blood circulation, reduces stress, supports the body’s natural detoxification process, and leaves you feeling deeply relaxed and renewed."
+		]
+	},
+
 	"footer": {
 		"navigation": "Navigation"
 	}

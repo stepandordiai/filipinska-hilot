@@ -235,6 +235,13 @@
 		"title": "Masáž hlavy"
 	},
 
+	"signatureFilipinoHilotMassage": {
+		"title": "Podpisová Filipínská Hilot Masáž s Bylinnými měšci a Reflexologií",
+		"description": [
+			"Zažijte léčivé umění tradiční filipínské masáže Hilot v kombinaci s terapií teplými bylinnými měšci a relaxační reflexologií chodidel. Toto ošetření uvolňuje svalové napětí, podporuje krevní oběh, zmírňuje stres, napomáhá detoxikaci organismu a zanechá vás v pocitu hlubokého uvolnění a nové energie."
+		]
+	},
+
 	"footer": {
 		"navigation": "Navigace"
 	}
