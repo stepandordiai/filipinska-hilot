@@ -145,8 +145,6 @@
 .active {
 	outline: 1px solid var(--f1ebdd-clr) !important;
 	outline-offset: -1px !important;
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
 }
 
 .menu-contacts__container {
