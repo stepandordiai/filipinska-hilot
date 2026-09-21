@@ -96,6 +96,7 @@ export default async function Contacts() {
 					className="contacts__map"
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2556.7866677165607!2d14.10166267699428!3d50.146422609207356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x666b7e95636ed627%3A0xc72b05950a05a2b3!2zRmlsaXDDrW5za8OhIEhpbG90IFdlbGxuZXNzIE1hc8Ohxb4!5e0!3m2!1sen!2scz!4v1786870859340!5m2!1sen!2scz"
 					loading="lazy"
+					title="Map showing the location of Filipínská Hilot Wellness Masáž, Dr. Vrbenského 22, Kladno"
 				></iframe>
 			</div>
 			<div className="contacts__opening-hours">

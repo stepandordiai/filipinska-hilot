@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import ArrowRightShortIcon from "../icons/ArrowRightShortIcon";
 import treatments from "@/data/treatments.json";
 import { useEffect, useState } from "react";
+import classNames from "classnames";
 import "./styles.scss";
 
 export default function Hero() {
@@ -55,11 +56,15 @@ export default function Hero() {
 				</div>
 			</div>
 			<div
-				className={`hero__treatment-slider ${visible ? "hero__treatment-slider--visible" : ""}`}
+				className={classNames("hero__treatment-slider", {
+					"hero__treatment-slider--visible": visible,
+				})}
 			>
-				<div className="hero__treatment-slider-img-container">
-					<img src={treatments[index].img} alt={t(treatments[index].name)} />
-				</div>
+				{treatments[index].img && (
+					<div className="hero__treatment-slider-img-container">
+						<img src={treatments[index].img} alt={t(treatments[index].name)} />
+					</div>
+				)}
 				<div className="hero__treatment-slider-details">
 					<p>{t(treatments[index].name)}</p>
 					<a
@@ -79,7 +84,11 @@ export default function Hero() {
 					</a>
 				</div>
 			</div>
-			<img className="hero__bg" src="/hero.png" alt="" />
+			<img
+				className="hero__bg"
+				src="/hero.png"
+				alt="Interiér masážního salonu Filipínská Hilot Wellness Masáž v Kladně"
+			/>
 		</section>
 	);
 }
