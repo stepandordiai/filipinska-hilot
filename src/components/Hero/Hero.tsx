@@ -3,9 +3,8 @@
 import { useTranslations } from "next-intl";
 import ArrowRightShortIcon from "../icons/ArrowRightShortIcon";
 import treatments from "@/data/treatments.json";
-
-import "./styles.scss";
 import { useEffect, useState } from "react";
+import "./styles.scss";
 
 export default function Hero() {
 	const t = useTranslations();
@@ -39,7 +38,6 @@ export default function Hero() {
 						),
 					})}
 				</h1>
-				{/* <p className="hero__subheading">{t("hero.subheading")}</p> */}
 				<div style={{ display: "flex", gap: "0.25rem", flexWrap: "wrap" }}>
 					<a
 						href="https://local.termino.eu/embed/filipinska-hilot-wellness-masaz"
@@ -64,30 +62,6 @@ export default function Hero() {
 				</div>
 				<div className="hero__treatment-slider-details">
 					<p>{t(treatments[index].name)}</p>
-					{/* <p
-						style={{
-							fontSize: "1.25rem",
-							fontWeight: "500",
-							marginBottom: "0.25rem",
-						}}
-					>
-						{t("durationAndPrice")}
-					</p>
-					<div
-						style={{
-							display: "flex",
-							gap: "0.25rem",
-							flexWrap: "wrap",
-						}}
-					>
-						{treatments[index].duration.map((d, i) => {
-							return (
-								<div key={i} className="treatment-card__price">
-									{d.time}min - {d.price} Kč
-								</div>
-							);
-						})}
-					</div> */}
 					<a
 						className="hero__treatment-slider-btn"
 						href={"#" + treatments[index].path}
