@@ -23,8 +23,8 @@ export const metadata: Metadata = {
 	metadataBase: new URL(BASE_URL),
 	// TODO: learn this
 	title: {
-		template: "%s | Filipínská Hilot Wellness Masáž",
-		default: "Filipínská Hilot Wellness Masáž",
+		template: "%s | Hilot Wellness Masáž",
+		default: "Filipínská masáž Kladno | Hilot Wellness Masáž",
 	},
 };
 

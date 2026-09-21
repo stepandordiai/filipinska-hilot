@@ -206,20 +206,20 @@
 	},
 
 	"herbalCompressMassage": {
-		"title": "Bylinková masáž bylinnými měšci",
+		"title": "Herbal Compress Massage",
 		"description": [
-			"Bylinková masáž bylinnými měšci je tradiční terapeutická procedura, při které se používají nahřáté bavlněné měšce naplněné směsí léčivých bylin. Měšce se jemně přikládají, přitlačují a masírují po celém těle, čímž pomáhají uvolnit svalové napětí, zmírnit bolest a navodit hlubokou relaxaci.",
-			"Bylinné měšce obvykle obsahují směs bylin, jako je citronová tráva, zázvor, kurkuma, kafrová limeta, kafr a další aromatické léčivé rostliny. Teplo podporuje prokrvení, uvolňuje ztuhlé svaly a umožňuje lepší působení bylinných silic."
+			"Herbal compress massage is a traditional therapeutic treatment that uses heated cotton pouches filled with a blend of medicinal herbs. The compresses are gently applied, pressed, and massaged over the whole body, helping to release muscle tension, ease pain, and induce deep relaxation.",
+			"The herbal compresses typically contain a blend of herbs such as lemongrass, ginger, turmeric, kaffir lime, camphor, and other aromatic medicinal plants. The heat promotes circulation, loosens stiff muscles, and allows the essential oils of the herbs to work more effectively."
 		],
 
-		"benefitsTitle": "Přínosy masáže:",
+		"benefitsTitle": "Benefits of the massage:",
 		"benefits": [
-			"Uvolňuje svalové napětí a ztuhlost.",
-			"Zmírňuje bolest svalů a kloubů.",
-			"Podporuje krevní a lymfatický oběh.",
-			"Pomáhá snižovat stres a navozuje hlubokou relaxaci.",
-			"Přispívá k regeneraci organismu.",
-			"Zanechává pokožku jemnou a příjemně provoněnou."
+			"Relieves muscle tension and stiffness.",
+			"Eases muscle and joint pain.",
+			"Supports blood and lymphatic circulation.",
+			"Helps reduce stress and induces deep relaxation.",
+			"Contributes to the body's recovery.",
+			"Leaves the skin soft and pleasantly scented."
 		]
 	},
 

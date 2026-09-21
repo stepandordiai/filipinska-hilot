@@ -6,8 +6,8 @@ import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import navLinks from "@/data/navLinks.json";
-import "./styles.scss";
 import LngSelect from "@/components/LngSelect/LngSelect";
+import "./styles.scss";
 
 export default function Header() {
 	const t = useTranslations();
@@ -77,7 +77,6 @@ export default function Header() {
 			<header className="header">
 				<Link className="header__logo" href="/">
 					<Image src={"/logo-2.png"} width={80} height={80} alt=""></Image>
-					{/* <span>Filipínská Hilot</span> */}
 				</Link>
 				<nav className="header__nav">
 					{navLinks.map((navLink, i) => {
@@ -119,7 +118,12 @@ export default function Header() {
 				<nav className="menu__nav">
 					{navLinks.map((navLink, i) => {
 						return (
-							<a key={i} className="menu__nav-link" href={navLink.path}>
+							<a
+								key={i}
+								onClick={() => setMenuOpen(false)}
+								className="menu__nav-link"
+								href={navLink.path}
+							>
 								{t(navLink.label)}
 							</a>
 						);
